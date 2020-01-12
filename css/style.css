@@ -1,0 +1,204 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #1b1b1b;}
+ul,ol{ list-style-type: none;}
+html,body{height: 100%;}
+body{
+    color: #1b1b1b;
+    font-family: 'Nanum Myeongjo', serif;
+}
+#main_header{
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    background: #ccc;
+    text-align: right;
+    background-image: url("../images/main_photo\ 1@2x.jpg");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+#main_header .info{
+    /* background: #ccc; */
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 10%;
+ 
+}
+.info span{
+    font-size: 20px;
+}
+.info small{
+    font-size: 12px;
+}
+#main_header .day{
+    text-align: left;
+    font-size: 60px;
+    text-shadow: 1px 1px 5px rgb(58, 54, 54);
+    color: white;
+    margin-left: 8%;
+    margin-top: 110%;
+}
+#intro{
+    /* background: #999; */
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1.7em;
+    clear: both;
+}
+#intro > h2{
+    color: #c99890;
+    margin-bottom: 50px;
+    /* border-bottom: 2px thick #c99890; */
+}
+#intro>#names{
+    margin: calc(50% - 190px);
+    padding-top: 50px;
+}
+.intro_name1{
+    float: left;
+    padding-left: 15%;
+    margin: 0 auto;
+    
+}
+.intro_name2{
+    float: left;
+    padding-left: 15%;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+#photo{
+    clear: both;
+    color: #c99890;
+    margin-bottom: 50px;
+    text-align: center;
+    
+
+}
+.view{
+    /* position: relative; */
+    background: #ccc;
+    width: 375px;
+    height: 667px;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: cover;
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    display: inline-block;
+}
+.view > img{
+    display: block;
+    width: 100%;
+}
+#day{
+    text-align: center;
+    margin-bottom: 0px;
+}
+#day > h2{
+    color: #c99890;
+    margin-top: 100px;
+}
+#photo{
+    margin-bottom: 0;
+}
+#photo > h2{
+    clear: both;
+    margin-bottom: 50px;
+}
+.view{
+    position: relative;
+    height: 541px;
+}
+.view > img {
+    position: absolute;
+    opacity: 0;
+    transition-duration: 1s;
+}
+/* .view > img:first-child{
+    opacity: 1;
+} */
+
+.view > img.show{
+    opacity: 1;
+}
+
+#day > h2{
+    margin-bottom: 30px;
+}
+#day img{
+    padding-top: 40px;
+}
+#map{
+    text-align: center;
+    
+}
+#map > h2{
+    color: #c99890;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.address{
+    display: block;
+    background: #c99890;
+    background: rgba(201, 152, 144, 0.1);
+    padding: 20px;
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+}
+.address > .fas{
+    font-size: 50px;
+    opacity: 0.5;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: #c99890;
+}
+.address > span{
+    line-height: 1.8em;
+}
+.traffic{
+    text-align: center;
+    padding: 25px;
+}
+.traffic .text h2{
+    margin-bottom: 15px;
+}
+.traffic .text p{
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+.traffic .text .fas{
+    font-size: 20px;
+    color: #c99890;
+    padding-right: 10px;
+}
+.traffic .text h2{
+    color: #c99890;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* 콜 */
+#call{
+    margin-top: 100px;
+}
+#call .box1{
+    background: #f5eae9;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+#call .box1 i{
+    color: #c99890;
+    font-size: 20px;
+}
+#call .box1:last-child{
+    margin-bottom: 0;
+}
